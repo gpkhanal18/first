@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "729021c4-de7f-4681-8d47-7a6addd369df",
+		"name": "Book",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "10133187"
+	},
+	"item": [
+		{
+			"name": "GET BOOKS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/books"
+			},
+			"response": []
+		},
+		{
+			"name": "GET BOOK",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/books/2"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a book",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:8080/books/1"
+			},
+			"response": []
+		},
+		{
+			"name": "ADD BOOK",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\": \"title3\",\n    \"author\": \"authorB\",\n    \"type\": \"type2\",\n    \"price\": 10030.0,\n    \"numOfPages\": 1030,\n    \"language\": \"languageB\",\n    \"isbn13\": \"isbnB\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/books"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT BOOK",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 2,\n    \"title\": \"title3updated\",\n    \"author\": \"authorB\",\n    \"type\": \"type2\",\n    \"price\": 10030.0,\n    \"numOfPages\": 1030,\n    \"language\": \"languageB\",\n    \"isbn13\": \"isbnB\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/books/2"
+			},
+			"response": []
+		}
+	]
+}
