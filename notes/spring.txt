@@ -1,0 +1,73 @@
+History 
+
+Web APplication 
+
+java 
+  - EJB 
+  - SPring 
+
+
+Spring (pivotal) company 
+     concept of DI use garera open source framework 
+
+ Spring framework 
+ 	 JPA - interface 
+     	hibernate framework (hibernate compnay ) - impl class 
+     log4 (log4J)
+
+  Spring current version 
+
+  -----
+  1. Spring xml based configuration (70% java , 30% xml )
+  2. spring java based configuration. (100% java ) configure 
+  3. Spring annotation based framework 
+
+  SpringBoot 
+      developed on spring framework 
+
+
+  CRM Management website - spring - 200 lines of code  - web development 
+  CRM Management website - springboot  - auto handle - 50 lines - web development . 0% xml all java enen data base in java 
+
+
+ Book  Website 
+
+ Backend 
+   SpringBoot - API develop 
+ Frontend 
+   Angular  - API consume garera html css 
+
+
+
+----------Focus --------------
+
+SpringBoot - API development - Webservice Development 
+
+BookWebsite 
+- book function - db name - API Method 
+- book add     - insert  - POST 
+- book update  - update  - PUT 
+- book delete  - delete  - DELETE 
+- book retrieve - select - GET 
+
+
+Database 
+
+required 
+ db name 
+ 	table name 
+ 		column name 
+
+row  - data - optional 
+
+Query 
+   DDL - creation of database , table and column 
+   DML - only after DDL is ready then only you can manipulate(insert , update , delete , select) date 
+
+
+
+
+
+
+
+
