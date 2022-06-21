@@ -33,7 +33,7 @@ public class BookService {
         bookRepository.save(whiskey);
     }
 
-    public void updateBook(String id, Book whiskey) {
+    public void updateBook(int id, Book whiskey) {
         bookRepository.save(whiskey);
     }
 
