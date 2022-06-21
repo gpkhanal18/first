@@ -64,6 +64,14 @@ Query
    DDL - creation of database , table and column 
    DML - only after DDL is ready then only you can manipulate(insert , update , delete , select) date 
 
+maven - build management tool 
+similar tool - gradle same job 
+
+
+
+user -> controller -> service -> repo(db) . Flow 
+
+
 
 
 
